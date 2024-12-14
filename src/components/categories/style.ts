@@ -3,12 +3,13 @@ import { colors, fontFamily } from "@/styles/theme";
 
 export const s = StyleSheet.create({
   container: {
-    gap: 20,
-    flex: 1,
+    maxHeight: 36,
+    position: "absolute",
+    top: 44,
+    zIndex: 1,
   },
-  title: {
-    fontSize: 16,
-    fontFamily: fontFamily.regular,
-    color: colors.gray[500],
+  content: {
+    gap: 8,
+    paddingHorizontal: 24,
   },
 });

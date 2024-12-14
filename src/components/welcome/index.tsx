@@ -8,8 +8,7 @@ export default function Welcome() {
       <Image source={require("@/assets/logo.png")} style={s.logo} />
       <Text style={s.title}>Boas Vindas ao Nearby!</Text>
       <Text style={s.subtitle}>
-        Tenha cupons de vantagens para usar {"\n"} em seus estabelecimentos
-        favoritos.
+        Tenha cupons de vantagens para usar em seus estabelecimentos favoritos.
       </Text>
     </View>
   );
