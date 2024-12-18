@@ -67,6 +67,7 @@ export default function Home() {
 
   useEffect(() => {
     fetchCategories();
+    getCurrentLocation();
   }, []);
 
   useEffect(() => {
